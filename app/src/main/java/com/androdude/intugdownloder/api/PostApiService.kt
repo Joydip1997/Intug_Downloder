@@ -21,7 +21,7 @@ interface PostApiService {
 
 
             return Retrofit.Builder()
-                .baseUrl("https://www.instagram.com/") // Add any base url here
+                .baseUrl("https://www.instagram.com/") 
                 .addConverterFactory(GsonConverterFactory.create()).build().create(PostApiService::class.java)
         }
     }
